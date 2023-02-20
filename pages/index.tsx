@@ -66,7 +66,7 @@ export const NavBar = styled.div`
 `
 export const Logo = styled.p`
     font-weight: bold;
-
+    cursor: pointer;
 
 `
 export const Main = styled.main`
@@ -97,14 +97,23 @@ export const Button = styled.button`
 
       padding: 0 15px;
     
-
       border: none;
       outline: none;
       cursor: pointer;
 
       font: inherit;
       font-size: 12px;
-      font-weight: bold;
+
+      background: #333;
+      color: white;
+
+      transition: 0.5s;
+
+      &:hover {
+        color: 333;
+        background: #ccc;
+        font-weight: bold;
+      }
 `
 export const ButtonNav = styled(Button)``
 export const ButtonActions = styled(Button)``
