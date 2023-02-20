@@ -60,18 +60,51 @@ export const NavBar = styled.div`
     align-items: center;    
     justify-content: space-between;
 
-    background: red;
     max-width: 900px;
     width: 90%;
+    height: 15vh;
 `
-export const Logo = styled.p``
+export const Logo = styled.p`
+    font-weight: bold;
+
+
+`
 export const Main = styled.main`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background: blue;
     max-width: 900px;
-    width: 90%`
+    width: 90%;
+    height: 85vh;
+    `
 
 export const HeadLine = styled.h1``
 export const SubHeadLine = styled.h2``
-export const MainActions = styled.div`` 
-export const Button = styled.button``
+export const MainActions = styled.div`
+      display: flex;
+` 
+export const Button = styled.button`
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      min-height: 45px;
+      min-width: 90px; 
+
+      padding: 0 15px;
+    
+
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      font: inherit;
+      font-size: 12px;
+      font-weight: bold;
+`
 export const ButtonNav = styled(Button)``
 export const ButtonActions = styled(Button)``
